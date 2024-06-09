@@ -19,6 +19,58 @@
             </ul>
         </div>
     </nav>
+    <nav id="hamburger-nav">
+        <div class="logo">Kenneth Frimpong</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+                <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+            </div>
+        </div>
+    </nav>
+    <section id="profile">
+        <div class="section_pic_contain">
+            <img src="./assets/profile-pic.png" alt="John Doe">
+        </div>
+        <div class="section_text">
+            <p class="section_text_p1">Hello, I'm</p>
+            <h1 class="title">Kenneth Frimpong</h1>
+            <p class="section__text__p2">Software Engineer</p>
+            <div class="btn-contain">
+                <button 
+                class="btn btn-color-2" 
+                onclick="window.open('./assets/Kenneth Frimpong Resume 2024-25.pdf')"> 
+                Download Resume
+            </button>
+                <button 
+                class="btn btn-color-1" 
+                onclick="location.href='./#contact'"> 
+                Contact Info
+            </button>
+            </div>
+            <div id="socials-container">
+                <img 
+                    src="./assets/linkedin.png" 
+                    alt="My LinkedIn Profile" 
+                    class="icon" 
+                    onclick="location.href='https://www.linkedin.com/in/kenneth-frimpong-2506ab271' "
+                /> 
+                <img 
+                    src="./assets/github.png" 
+                    alt="My Github Profile" 
+                    class="icon" 
+                    onclick="location.href='https://github.com/Kenxsproject' "
+                /> 
+            </div>
+        </div>
+    </section>
     <script src="script.js"></script>
 </body>
 </html>
